@@ -1,0 +1,40 @@
+
+div.mf-name,
+ div.mf-email,
+ div.mf-education,
+ div.mf-nationality,
+ div.mf-zodiac_sign,
+ div.mf-favorite_season,
+ div.mf-message {width:80%; padding-bottom:0.4em;}
+div.mf-name input, div.mf-email input {width:60%;}
+div.mf-message textarea {width: 60%;}
+span.mf-req {color:red;}
+div.mf-ok-text {color:green; font-weight:bold; padding-bottom: 1em;}
+
+.mf-progress-circle{
+  margin: 10px;
+  padding: 5px;
+}
+.progress-circle {
+  background-color: #64b5f6;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 50%;
+}
+.progress-ring__circle {
+  transform-origin: center;
+  transform: rotate(-90deg);
+  transition: 0.3s;
+}
+.inside-circle {
+  position: relative;
+  left: auto;
+  text-align: center;
+  width: 120px;
+  bottom: 80px;
+  font-size: 35px;
+  text-shadow:  0 0 2px blue, 0 0 3px black;
+}
